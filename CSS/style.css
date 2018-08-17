@@ -1,0 +1,131 @@
+body {
+	background: black;
+	margin: 0;
+}
+
+.top {
+	height: 90vh;
+}
+
+#links {
+	background-color: grey;
+	height: 250px;
+	margin: 0;
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#about {
+	background-color: white;
+	height: 150px;
+	margin: 0;
+	padding: 50px;
+}
+
+.arrow {
+	color: white;
+	text-align: center;
+	height: 100px;
+}
+
+#contact {
+	background-color: #0d98ba;
+	height: 30px;
+	margin: 0;
+	padding: 50px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#noupper {
+	text-transform: lowercase;
+}
+
+  .d1{background:#A9A9A9;
+  		height: 250px;
+  		text-align: center;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;}
+
+  .d1:hover {
+  	background: #778899;
+  	font-size: 25px;
+  }
+  .d2{background:#A9A9A9;
+  		height: 250px;
+  		text-align: center;
+  		vertical-align: middle;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;}
+
+  	.d2:hover {
+  	background: #7C8864;
+  	font-size: 25px;
+  	}
+ 
+  .d3{background:#A9A9A9;
+  		height: 250px;
+  		text-align: center;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;}
+
+  	.d3:hover {
+  	background: #bf9494;
+  	font-size: 25px;
+  	}
+
+.wrapper {
+	max-width: 960px;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+h1 {
+	font-size: 49px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed';
+	text-align: justify;
+	text-justify: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bannerText {
+	border-bottom: solid 2px white;
+	width: 60%;
+	margin-top: 20%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thinktxt:hover {
+	color: blue;
+}
+.codetxt:hover {
+	color: green;
+}
+.createtxt:hover {
+	color: red;
+}
+
+.subheadingtext {
+	color: white;
+	text-align: center;
+	width: 60%;
+	padding-top: 20px;
+}
